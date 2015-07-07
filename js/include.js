@@ -50,7 +50,6 @@ function setHeader(){
     $("#navbar-spy li").removeClass("active");
     var location = window.location.href.split("/");
     var current_page = location[location.length - 1];
-    console.log(current_page);
     $("#navbar-spy li a[href='"+current_page+"']").closest("li").addClass("active");
 }
 
